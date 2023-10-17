@@ -1,0 +1,50 @@
+
+
+
+$(document).ready(function()
+{
+    $("#birthday").click(function()
+    {
+        $(".firstpart").show();
+    });
+});
+$(document).ready(function()
+{
+    $("#wedding").click(function()
+    {
+        $(".secondpart").show()
+    });
+});
+$(document).ready(function()
+{
+    $("#custom").click(function()
+    {
+        $(".thirdpart").show()
+    });
+});
+$(document).ready(function()
+{
+    $("#birthday").click(function()
+    {
+        $(".secondpart,.thirdpart").hide();
+    });
+});
+$(document).ready(function()
+{
+    $("#wedding").click(function()
+    {
+        $(".firstpart,.thirdpart").hide();
+    });
+});
+$(document).ready(function()
+{
+    $("#custom").click(function()
+    {
+        $(".firstpart,.secondpart").hide();
+    });
+});
+$(document).ready(function()
+{
+    $(".secondpart,.thirdpart").hide();
+});
+

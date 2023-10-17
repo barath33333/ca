@@ -1,0 +1,817 @@
+.navbar .navbar-nav{
+    margin-left:260px;
+    
+
+}
+.navbar {
+    background:white;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    margin-left:30px;
+    color:black;
+    text-transform:uppercase;
+}
+.navbar .navbar-brand{
+    font-size:30px;
+    padding-left:50px;
+    font-family:'Times New Roman', Times, serif;
+}
+@media(max-width:375px)
+{
+    .navbar .navbar-nav{
+        margin-left:10px;
+        margin-top:20px;
+    }
+    .navbar .navbar-brand{
+        font-size:20px;
+        padding-left:10px;
+      
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        margin-left:10px;
+        font-size:12px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover{
+        background:orange;
+        width:90%;
+        padding-left:20px;
+        padding-right:20px;
+        border-radius:4px;
+    }
+}
+
+
+
+#home{
+    background-image:url("cakeimage1.jpg");
+    background-size:1600px 700px;
+    background-repeat:no-repeat;
+    height:700px;
+    width:100%;
+    padding-top:50px;
+}
+#home img{
+    height:500px;
+    width:400px;
+    margin-top:80px;
+}
+#home h4{
+margin-top:-300px;
+font-size:27px;
+font-family :Knewave;
+letter-spacing:10px;
+color:orange;
+}
+#home h1{
+    color:white;
+    font-size:70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home h2{
+color:white;
+font-size:30px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#home .readmore button {
+margin-top:20px;
+    background:orange;
+    border:none;
+    padding:5px 20px;
+}
+#home .readmore a{
+color:black;
+}
+
+@media(max-width:320px)
+
+{
+    #home img{
+        height:300px;
+        margin-top:20px;
+        width:200px;
+        margin-left:-20px;
+    }
+    #home{
+        background-size:360px 400px;
+        height:300px;
+    }
+   #home h4{
+    padding-top:50px;
+    letter-spacing:0px;
+    margin-top:-250px;
+    font-size:20px;
+   }
+   #home h1{
+    font-size:30px;
+   }
+#home h2{
+font-size:16px;
+}
+#home h2 span{
+    color:orange;
+}
+#home .readmore button {
+    margin-top:20px;
+    background:orange;
+    border:none;
+    padding:4px 15px;
+}
+#home .readmore a{
+color:black;
+font-size:13px;
+}
+}
+
+#about{
+    height:700px;
+    width:100%;
+    padding-top:50px;
+    
+}
+#about h4{
+    text-align:center;
+padding-top:40px;
+font-size:29px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+}
+#about h1{
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+}
+#about img{
+    margin-top:70px;
+    height:400px;
+    width:400px;
+}
+#about .secpart{
+    padding-top:100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+}
+#about .healthy ,.award{
+    height:200px;
+    width:200px;
+   margin-top:40px;
+}
+#about .secpart h5{
+    padding-left:0px;
+}
+#about .card{
+    background-image:url("imagebg.jpg");
+}
+#about  .healthy i{
+text-align:center;
+font-size:30px;
+color:orange;
+padding-top:20px;
+}
+#about .healthy h3{
+font-size:20px;
+padding-top:10px;
+text-align:center;
+color:white;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+}
+#about .healthy h5{
+text-align:center;
+font-size:14px;
+color:white;
+padding:5px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+}
+
+#about .award{
+    margin-left:300px;
+    margin-top:-198px;
+}
+#about  .award i{
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+    color:orange;
+    }
+    #about .award h3{
+    font-size:20px;
+    padding-top:10px;
+    padding:px;
+    color:white;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    }
+    #about .award h5{
+        color:white;
+    text-align:center;
+    padding:5px;
+    font-size:14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    }
+@media(max-width:375px)
+{
+    #about{
+        height:1000px;
+    }
+    #about img{
+        margin-top:50px;
+        height:300px;
+        width:300px;
+        margin-left:20px;
+    }
+    #about  .card{
+        width:150px;
+    height:150px;
+      
+    }
+    #about .award{
+        margin-left:170px;
+    }
+    #about .secpart{
+        padding-top:50px;
+    }
+}
+
+    #counter{
+        height:200px;
+        width:100%;
+        background-image:url("imagebg.jpg");
+        border-radius:15px;
+       
+        
+    }
+    #counter .container{
+        padding-top:50px;
+    }
+    #counter .counter{
+        font-size:30px;
+    }
+    #counter h3{
+        color:white;
+        padding-top:10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    }
+    #counter .counter{
+        color:white ;
+        letter-spacing:5px;
+    }
+    #counter i{
+        border:2px solid transparent;
+        padding:5px;
+        border-radius:50px;
+        font-size:24px;
+        color:white;
+        background:orange;
+    }
+
+@media(max-width:375px)
+{
+    #counter{
+        height:400px;
+        margin-top:20px;
+        border-radius:0px;
+    }
+    #counter .container{
+        padding-top:50px;
+       
+    }
+    #counter .row{
+        display:grid;
+        grid:auto auto /auto auto;
+    }
+    #counter .counter{
+        padding-top:20px;
+    }
+    #counter h3{
+        font-size:20px;
+    }
+    #counter i{
+        margin-top:20px;
+    }
+    #counter .counter{
+        font-size:22px;
+    }
+}
+
+
+    #menu{
+        height:1200px;
+        padding-top:50px;
+        background-image:url("imagebg.jpg");
+        width:100%;
+        margin-top:30px;
+        background-size:3300px 120px;
+        
+    }
+    #menu .headfour{
+        text-align:center;
+        color:white;
+        padding-top:50px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+    }
+    #menu #birthday,#wedding,#custom{
+        cursor:pointer;
+    }
+    #menu h4{
+
+padding-top:10px;
+    }
+    #menu p{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+        text-align:center;
+    }
+    #menu .card{
+        width:300px;
+        margin-top:20px;
+        transition-property:background-color;
+        transition-delay:0.5s;
+        transition-duration:1s;
+        transition-timing-function:ease-in-out;
+        
+    }
+    
+    #menu .card:hover{
+        box-shadow:2px 2px 20px orange;
+        background:orange;
+    }
+    #menu h1{
+        text-align:center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+        color:white;
+    }
+    #menu ul li{
+        display:inline;
+        background:orange;
+        padding:10px;
+        color:black;
+        border-radius:10px;
+    }
+    #menu .cake h4{
+        text-align:center;
+    }
+    #menu ul{
+        text-align:center;
+        margin-top:20px;
+     
+        padding:15px;
+    }
+    #menu img{
+        height:300px;
+        width:300px;
+        padding:30px;
+    }
+#menu .secondpart{
+    display:none;
+}
+#menu .thirdpart{
+    display:none;
+}
+    #menu .firstpart{
+        display:grid;
+        grid:auto auto  /auto auto  auto;
+    }
+    #menu .secondpart{
+        display:grid;
+        grid:auto auto/ auto auto auto;
+    }
+    #menu .thirdpart{
+        display:grid;
+        grid:auto auto / auto auto auto;
+    }
+
+    @media(max-width:375px)
+    {
+        #menu{
+            height:1100px;
+            border:5px solid orange;
+        }
+        #menu .firstpart{
+display:grid;
+grid:auto auto auto / auto auto;
+
+        }
+         #menu .secondpart{
+            display:grid;
+            grid:auto auto auto / auto auto;
+            
+                    }
+                    #menu .thirdpart{
+                        display:grid;
+                        grid:auto auto auto / auto auto;
+                        
+                                } 
+        #menu .card{
+            height:220px;
+            width:150px;
+          
+        }
+        #menu .card img{
+            height:140px;
+           padding:10px;
+            width:150px;
+        }
+        #menu .card h4{
+font-size:15px;
+padding-top:0px;
+        }
+        #menu .card p{
+            font-size:10px;
+
+        }
+    } 
+   
+#types{
+    margin-top:30px;
+    padding-top:50px;
+    height:450px;
+  background-image:url("image22.jpg");
+  background-size:1600px 600px;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+ 
+    width:100%;
+}
+    #types .card{
+        height:200px;
+        margin-top:30px;
+        width:300px;
+        background:white;
+        border:2px solid black;
+        box-shadow:2px 2px 20px black;
+    }
+    #types h4{
+color:black;
+font-size:20px;
+text-align:center;
+padding-top:20px;
+border-bottom:2px solid white;
+padding-bottom:5px;
+background:orange;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+
+    }
+    #types h6{
+        padding-top:20px;
+        padding-left:20px;
+        padding-right:20px;
+        background:orange;
+        padding-bottom:60px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+        color:black;
+    }
+    #types h1{
+text-align:center;
+padding-top:40px;
+font-size:25px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+color:orange;
+    }
+    #types .typebutton{
+text-align:center;
+margin-top:20px;
+
+    }
+    #types .typebutton button{
+        padding:5px 20px;
+   border:none;
+        background:rgb(230, 167, 50);
+    }
+    #types .typebutton a{
+text-decoration:none;
+color:black;
+
+    }
+
+@media(max-width:375px)
+{
+    #types {
+        height:900px;
+        width:100%;
+        padding-bottom:50px;
+    }
+    #types .card{
+        margin-left:20px;
+    }
+}
+
+
+    #team{
+        padding-top:80px;
+        height:850px;
+        width:100%;
+        background-image:url("imagebg.jpg");
+        background-size:3300px 850px;
+        background-repeat:no-repeat;
+    }
+    #team h4{
+text-align:center;
+padding-top:30px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+color:orange;
+
+
+    }
+    #team h1{
+        text-align:center;
+        color:white;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    #team .card{
+        margin-top:30px;
+        transition-property:width,height,background-color;
+        transition-delay:0.5s;
+        transition-duration:1s;
+        transition-timing-function:ease-in-out;
+    }
+    #team .card:hover{
+
+background:orange;
+
+    }
+    #team .card h5 {
+
+        padding-top:40px;
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    #team .card h6{
+        text-align:center;
+        padding-top:10px;
+       
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    #team .card2 img{
+        height:235px;
+        width:330px;
+    }
+    
+   @media(max-width:375px)
+   {
+    #team{
+        border:5px solid orange;
+        padding-top:40px;
+        
+        height:1250px;
+        background-size:3300px 1250px;
+      
+    }
+    #team .card{
+        height:300px;
+        width:300px;
+        margin-left:20px;
+    }
+    #team .card h5{
+        margin-left:-40px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+    #team .card img{
+        height:180px;
+        width:270px;
+    }
+   }
+
+#test{
+    padding-top:50px;
+}
+    #test .card h4,h5{
+        padding-left:120px;
+        margin-top:-80px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+   #test .card{
+    height:250px;
+    width:430px;
+   }
+   #test .setimage{
+    width:900px;
+    display:flex;
+   }
+   
+   #test .setimage::-webkit-scrollbar{
+    display:none;
+   }
+   
+    #test .card img{
+        height:100px;
+        width:100px;
+    }
+    #test .card p{
+        padding-top:40px;
+        padding-left:10px;
+        text-align:justify;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+
+
+    
+    #image{
+        padding-top:80px;
+        margin-top:20px;
+        height:800px;
+        width:100%;
+        background-image:url("imagebg.jpg");
+        background-repeat:no-repeat;
+        background-size:3300px 900px;
+    }
+    .image-container {
+        display: flex;
+        margin-left:-160px;
+    }
+    
+    .image-wrapper {
+        position: relative;
+        margin: 10px;
+    }
+    
+    .image-content {
+        display: none;
+        position: absolute;
+        bottom:22px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color:black;
+        color: #fff;
+        padding: 5px 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        text-align: center;
+     height:180px;
+     width:180px;
+     font-size:25px;
+     padding-top:60px;
+   
+     border-radius:20px;
+    
+    }
+    
+    .image-wrapper:hover .image-content {
+        display: block;
+        opacity:0.8;
+        
+    }
+    
+#image h4{
+text-align:center;
+color:orange;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+padding-top:30px;
+}
+#image h1{
+    color:white;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size:30px;
+}
+#image .image-container img{
+    height:220px;
+    width:220px;
+    border:2px solid black;
+border-radius:10px;
+    padding:10px;
+
+}
+@media(max-width:375px)
+{
+    #image{
+        border:5px solid orange;
+        height:1300px;
+        background-repeat:no-repeat;
+        background-size:3300px 1300px;
+    }
+    .image-container {
+        display: flex;
+        margin-left:10px;
+    }
+#image .image-container{
+    display:grid;
+    grid:auto auto auto/ auto auto;
+}
+.image-content {
+    height:100px;
+    width:100px;
+    font-size:16px;
+    padding-top:30px;
+    padding-right:10px;
+}
+#image .image-container img{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+border-radius:10px;
+    padding:10px;
+
+}
+}
+
+
+
+#contact {
+    background:rgb(36, 27, 27);
+    height:400px;
+}
+
+#contact .firstpart{
+    margin-top:50px;
+    
+    padding:10px;
+    background:orange;
+}
+#contact .firstpart h3{
+    padding-top:20px;
+    text-align:center;
+    color:white;
+}
+#contact .firstpart p{
+    text-align:justify;
+    padding:10px;
+    color:white;
+}
+#contact .firstpart i{
+    color:black;
+}
+#contact .separt{
+    margin-top:50px;
+    border-right:2px solid orange;
+    background:black;
+}
+#contact .separt h3{
+    text-align:center;
+    color:white;
+    padding-top:30px;
+}
+#contact .separt i{
+    font-size:20px;
+    margin-top:10px;
+    color:white;
+}
+#contact .separt a{
+    padding-left:20px;
+    text-decoration:none;
+    color:white;
+}
+#contact .footicons {
+    margin-top:20px;
+    margin-left:50px;
+  
+}
+#contact .footicons i{
+background:orange;
+margin-left:10px;
+  
+    color:black;
+    padding:10px;
+
+}
+#contact .tdpart{
+    margin-top:50px;
+   border-right:2px solid orange;
+    background:black;
+}
+#contact .tdpart h3{
+    text-align:center;
+    color:white;
+    padding-top:30px;
+}
+
+#contact .tdpart ul li{
+    line-height:30px;
+    list-style-type:none;
+}
+#contact .tdpart ul li a{
+    color:white;
+    text-decoration:none;
+}
+#contact .tdpart a:hover{
+    color:orange;
+}
+#contact .frthpart{
+    margin-top:50px;
+    border-right:2px solid orange;
+   padding-bottom:50px;
+    background:black;
+}
+#contact .frthpart h3{
+    padding-top:30px;
+    color:white;
+    text-align:center;
+}
+#contact .frthpart p{
+    color:white;
+}
+#contact .frthpart input{
+    padding:5px 20px;
+}
+#contact .frthpart .footbutton{
+    background:orange;
+    color:black;
+    border:2px solid white;
+    padding:5px 20px;
+    margin-top:10px;
+}
+@media(max-width:375px)
+{
+    #contact {
+        height:1100px;
+    }
+    #contact .separt{
+        margin-left:0px;
+        padding-bottom:20px;
+        margin-top:0px;
+    }
+
+}
